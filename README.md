@@ -10,7 +10,7 @@ npm install
 npm run serve
 ```
 
-该项目为在设置路由守卫，除了登录页面，其他页面在没有登录获取token时无法访问页面
+使用vuex和localstorage结合保存token , 并且设置路由守卫，在没有登录获取token时，除了登录页面，其他页面都无法访问页面
 
 路由配置
 
